@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Yala"
+    android:background="@drawable/backsubwall">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Yala National Park"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/imaged"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/yala1" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/backbtn" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/btnMap"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/homeicon" />
+
+    <ImageButton
+        android:id="@+id/btnMap"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/mapicon" />
+
+    <ScrollView
+        android:layout_width="362dp"
+        android:layout_height="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yala National Park (also known as Ruhuna National Park) is located in the south eastern region of Sri Lanka and extends over two provinces of Hambantota district of southern province and Monaragala district in Uva province. The entrance to the park is at Palatupana, 12km from Kirinda. The distance from Colombo to the entry point of Palatupana is 305 km.
+
+The gateway to Yala National Park is Tissamaharama. A 20 km drive via Kirinda takes the visitors to the Palatupana. At Palatupana, the well-designed visitor center provides the information to the tourists and assign a tracker to all incoming vehicles. The park provides jeeps with soft–tops which gives the opportunitiy to view wild life. Dawn and dusk bring about the best timing for Yala Safari tours in the Yala National Park . Being located in one of the arid regions of Sri Lanka, the Climate of Ruhuna National Park is usually hot and dry. The mean annual temperature is 27 Celsius, although in the dry season the temperature could go as high as 37 Celsius.
+
+The rocky outcrops scattered over the park provides vantage points to enjoy the sprawling areas with Sri Lanka’s dry zone landscape: low scrub and woods. Stillmore, the southern border of the park being the south-eastern coast, the brackish lagoons and dunes enhances the distinctive charm of the Yala National Park. Of all the National Parks in Sri Lanka, Yala National Park gives the best opportunity to witness Sri Lanka’s broad variety of wildlife: colorful painted stork in troops are seen perched at the shores of lagoon where the crocodiles too have chosen to doze off; lovely fantailed peacocks in their resplendent blues and greens parade about amidst the woods where monkeys hang, leap and chatter; in the bush jungle are the Elephants; crossing the tracks and wandering off into the thorny scrub jungle is the star attraction of the park: the leopard.
+
+A total of 32 species of mammals have been recorded. The threatened species include sloth bear (Melursus ursinus), Leopard (Panthera pardus kotiya), elephant (Elephas maximus), water buffalo (Bubalus bubalis), Wild boar (Sus scrofa), spotted deer (Axis axis ceylonessis), sambar (Cervus unicolor) and golden jackal (Canis aureus).
+
+"
+
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.369" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

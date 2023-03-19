@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Ceylon Wonders</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="nature_wonders">Nature Wonders</string>
+    <string name="history_wonders">Historical Wonders</string>
+    <string name="sl_beach">Seaside Sri Lanka</string>
+    <string name="imgdesc">Image btn</string>
+    <string name="layout">layout</string>
+    <string name="imaged">images</string>
+    <string name="title_activity_sin_map">SinMap</string>
+    <string name="title_activity_sinmap">Sinmap</string>
+    <string name="title_activity_yala_map">YalaMap</string>
+    <string name="title_activity_bun_map">BunMap</string>
+    <string name="title_activity_bunmap">Bunmap</string>
+    <string name="title_activity_yalamap">Yalamap</string>
+    <string name="title_activity_bundmap">Bundmap</string>
+    <string name="title_activity_meemmap">Meemmap</string>
+    <string name="title_activity_asupmap">Asupmap</string>
+    <string name="title_activity_polmap">Polmap</string>
+    <string name="title_activity_anuradmap">Anuradmap</string>
+    <string name="title_activity_gallemap">Gallemap</string>
+    <string name="title_activity_kanmap">Kanmap</string>
+    <string name="title_activity_sigmap">Sigmap</string>
+    <string name="title_activity_trimap">Trimap</string>
+    <string name="title_activity_hikmap">Hikmap</string>
+    <string name="title_activity_unamap">Unamap</string>
+    <string name="title_activity_kogmap">Kogmap</string>
+    <string name="title_activity_arumap">Arumap</string>
+
+
+</resources>

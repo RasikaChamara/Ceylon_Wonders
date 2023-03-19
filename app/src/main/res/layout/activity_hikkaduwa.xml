@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hikkaduwa"
+    android:background="@drawable/backsubwall">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Hikkaduwa"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/imaged"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/hikkaduwa" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/backbtn" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/btnMap"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/homeicon" />
+
+    <ImageButton
+        android:id="@+id/btnMap"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/mapicon" />
+
+    <ScrollView
+        android:layout_width="362dp"
+        android:layout_height="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Famous for its long sandy beach, west-coast Hikkaduwa also boasts good waves for surfers, reefs for snorkelers and divers, plus sand-side hotels, restaurants, and bars. Add an island temple, tsunami museum, and turtle sanctuary, and you have one of Sri Lanka’s best beach-holiday haunts.
+Hikkaduwa is a seaside resort town in southwestern Sri Lanka. It’s known for its strong surf and beaches, including palm-dotted Hikkaduwa Beach, lined with restaurants and bars. The shallow waters opposite Hikkaduwa Beach shelter the Hikkaduwa National Park, which is a coral sanctuary and home to marine turtles and exotic fish. Inland, Gangarama Maha Vihara is a Buddhist temple decorated with hand-painted murals
+ Hikkaduwa National Park is one of the three marine national parks in Sri Lanka. It is home to some of the best coral gardens in Asia. The national park contains a fringing coral reef of a high degree of biodiversity. The area was declared a wildlife sanctuary on May 18, 1979. Hikkaduwa coral reef is a typical shallow fringing reef with an average depth of around 5 meters (16 ft).
+
+Foliaceous Montipora species dominate the coral reef. Encrusting and branching species are also present. Faviidae and Poritidae corals are contained in the inshore areas of the reef in massive colonies. Staghorn, elkhorn, cabbage, brain, table, and star corals are all present in the reef. Corals of 60 species belonging to 31 genera are recorded from the reef. The reef also recorded over 170 species of reef fish belonging to 76 genera.
+
+Seagrass and marine algae belonging to genera Halimeda and Caulerpa are common in the seabed depth ranging from 5–10 m. Seagrasses provide habitat to Dugong and sea turtles. Some species of prawns feed on the seagrass. Eight species of ornamental fishes also inhabit the reef, along with many vertebrates and invertebrates including crabs, prawns, shrimps, oysters, and sea worms. Porites desilveri is an endemic coral species of Sri Lanka.
+Chlorurus rhakoura and Pomacentrus proteus are two reef fish species confined to Sri Lanka. Blacktip reef shark is found along the outer slope of the reef. Three sea turtles that have been categorized threatened to visit the coral reef: the hawksbill turtle, green turtle, and Olive Ridley"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.369" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Anurad"
+    android:background="@drawable/backsubwall">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Anuradhapura"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/imaged"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/anuradhapura" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/backbtn" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/btnMap"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/homeicon" />
+
+    <ImageButton
+        android:id="@+id/btnMap"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/mapicon" />
+
+    <ScrollView
+        android:layout_width="362dp"
+        android:layout_height="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anuradhapura is the first capital of Sri Lanka located in north central province of Sri Lanka. It is one of the ancient capitals of Sri Lanka which was the center of Theravada Buddhism for many centuries. Due to its ruins of an ancient Sri Lankan civilization UNESCO named it as a UNESCO world heritage site in 1982 under the name of Sacred City of Anuradhapura. Anuradhapura is greatest monastic city of the ancient world that dates back to 5th Century BC remained the majestic seat of the kingdom of Sri Lanka until the 11th century A.D.
+Anuradhapura flourished as the Capital of Lanka from 377 BC to the end of the reign 1017 AD and was the Royal Seat for 1400 years under 130 kings as the capital of the Country. Anuradhapura was Sri Lanka’s first Planned City and the First Historical Capital of Sri Lanka founded in 5th century BC gives a fascinating glimpse of a stately, well laid-out pre-Christian metropolis of massive Buddhist shrines and monasteries, splendid palaces, pavilions, and parks, bathing ponds and vast reservoirs, many of them are masterpieces of architecture, art, sculpture and engineering.
+Anuradhapura offers a host of memorable sightseeing highlights. The city had been reserved for the King, his ministers and for commercial activities and the suburbs had been planned as areas serving the city as well as settlements for ascetics. Site, is replete with renovated monuments, restored edifices, preserved ruins and historical sites where the archaeological excavations are still being continued. Anuradhapura was the cradle of glorious Sinhalese Buddhist civilization.
+The pride of Anuradhapura is the ancient stupas and ancient reservoirs. Towering stupas or dagobas (pagoda type buildings) of stupendous domes – the marvels of ancient civil engineering of Sri Lanka were built taking into account the effects of lightening on high-rise constructions, among numerous other engineering factors. Other attractions at Anuradhapura are magnificent rock carvings of monumental richness and remarkable grace, colossal stone pillars that stand proud amidst the ruins of royal palaces, Buddhist monasteries and temples, and magnificent stone cut swimming pools with sophisticated hydrology engineering techniques.
+The Thuparama Dagaba which enshrines a collar-bone relic of the Buddha, the Isurumuniya Rock Temple which is a treasure trove of sculptures, the 2,200 year old Sri Maha Bodhi (Sacred Bo Tree) which is the world’s oldest historical tree, the 1st century BC Abhayagiri and 3rd century AD Jetawana Dagabas (UNESCO World Heritage sites) 380 FT and 400 FT in height respectively are second in height only to ancient Egypt’s two mightiest pyramids at Gizeh. Anuradhapura’s three main ancient irrigation lakes are Tissawewa, Nuwarawewa in the south and Basawakulama in the north nourished its agriculture and adorned the capital for nearly two millennia as it does today."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.369" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

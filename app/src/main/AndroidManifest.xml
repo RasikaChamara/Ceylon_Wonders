@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rasikaarc.ceylonwonders">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CeylonWonders"
+        tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC8lWaItBVcOphWL7s4s99GiJDBwGDrHvA" />
+
+        <activity
+            android:name=".Arumap"
+            android:exported="false"
+            android:label="@string/title_activity_arumap" />
+        <activity
+            android:name=".Kogmap"
+            android:exported="false"
+            android:label="@string/title_activity_kogmap" />
+        <activity
+            android:name=".Unamap"
+            android:exported="false"
+            android:label="@string/title_activity_unamap" />
+        <activity
+            android:name=".Hikmap"
+            android:exported="false"
+            android:label="@string/title_activity_hikmap" />
+        <activity
+            android:name=".Trimap"
+            android:exported="false"
+            android:label="@string/title_activity_trimap" />
+        <activity
+            android:name=".Trinco"
+            android:exported="false" />
+        <activity
+            android:name=".Koggala"
+            android:exported="false" />
+        <activity
+            android:name=".Arugam"
+            android:exported="false" />
+        <activity
+            android:name=".Unawatuna"
+            android:exported="false" />
+        <activity
+            android:name=".Hikkaduwa"
+            android:exported="false" />
+        <activity
+            android:name=".Seaside"
+            android:exported="false" />
+        <activity
+            android:name=".Sigmap"
+            android:exported="false"
+            android:label="@string/title_activity_sigmap" />
+        <activity
+            android:name=".Kanmap"
+            android:exported="false"
+            android:label="@string/title_activity_kanmap" />
+        <activity
+            android:name=".Gallemap"
+            android:exported="false"
+            android:label="@string/title_activity_gallemap" />
+        <activity
+            android:name=".Anuradmap"
+            android:exported="false"
+            android:label="@string/title_activity_anuradmap" />
+        <activity
+            android:name=".Polmap"
+            android:exported="false"
+            android:label="@string/title_activity_polmap" />
+        <activity
+            android:name=".Polonn"
+            android:exported="false" />
+        <activity
+            android:name=".Anurad"
+            android:exported="false" />
+        <activity
+            android:name=".Galle"
+            android:exported="false" />
+        <activity
+            android:name=".Kandy"
+            android:exported="false" />
+        <activity
+            android:name=".Sigiriya"
+            android:exported="false" />
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".Asupmap"
+            android:exported="false"
+            android:label="@string/title_activity_asupmap" />
+        <activity
+            android:name=".Asupini"
+            android:exported="false" />
+        <activity
+            android:name=".Meemmap"
+            android:exported="false"
+            android:label="@string/title_activity_meemmap" />
+        <activity
+            android:name=".Meemure"
+            android:exported="false" />
+        <activity
+            android:name=".Bundmap"
+            android:exported="false"
+            android:label="@string/title_activity_bundmap" />
+        <activity
+            android:name=".Yalamap"
+            android:exported="false"
+            android:label="@string/title_activity_yalamap" />
+        <activity
+            android:name=".Sinmap"
+            android:exported="false"
+            android:label="@string/title_activity_sinmap" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Yala"
+            android:exported="false" />
+        <activity
+            android:name=".Bundala"
+            android:exported="false" />
+        <activity
+            android:name=".Sinharaja"
+            android:exported="false" />
+        <activity
+            android:name=".Nature"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

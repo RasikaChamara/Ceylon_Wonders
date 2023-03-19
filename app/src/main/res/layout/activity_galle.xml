@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Galle"
+    android:background="@drawable/backsubwall">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Galle Fort"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/imaged"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/galle" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/backbtn" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/btnMap"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/homeicon" />
+
+    <ImageButton
+        android:id="@+id/btnMap"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/mapicon" />
+
+    <ScrollView
+        android:layout_width="362dp"
+        android:layout_height="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The story of the Galle Dutch Fort; a UNESCO World Heritage Site reverberates through every traveller’s photos and captions. Initially built by the Portuguese in the 16th century during their conquests, the fort was later fortified and conquered by the Dutch in the 17th century, until it later fell to the might of the British. The old town of Galle was once used as a trading port for spices and other goods for over 200 years. However, today, the fort has been transformed into a place of history, romance and beauty where travellers are warmly welcomed to dive head first into the exotic stories and be a part of this heritage site.
+
+Fifty Lighthouse Street is set within the fort and offers the perfect base for you to explore the charms of Galle. Preserved in its original glory, stroll along the ramparts and admire the imposing structures like the Galle Lighthouse, Galle Clocktower and the Groote Kerk. A Galle Fort Walking Tour with us, will reveal secrets that only a local from within the fort will know. Our walking tour takes you through the backroads of this iconic fort, visiting charming structures, museums, old buildings and more as you hear endless stories, legends and some secrets of the Galle Dutch Fort."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.369" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

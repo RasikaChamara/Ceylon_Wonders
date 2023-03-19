@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trinco"
+    android:background="@drawable/backsubwall">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Trincomalee"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/imaged"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/trinco" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/backbtn" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/btnMap"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/homeicon" />
+
+    <ImageButton
+        android:id="@+id/btnMap"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/mapicon" />
+
+    <ScrollView
+        android:layout_width="362dp"
+        android:layout_height="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One of the finest natural deepwater harbours in the world, located in the eastern seaboard of Sri Lanka approximately 245km from Colombo. There is an account of “Gokanna”, as it was known during the Anuradhapura and Polonnaruwa period, attracting great sea fares in the calibre Marco Polo and Ptolemy. The empire building British fortified it with fort Fredrick, which stands guard to this day with cannons intact, the approach of the natural harbour the other is the small Dutch fort both stand together. Famous swami rock (lovers leap) is inside the fort where one could dive into the deep water off a cliff next to one of the “Koneswaran” one of the oldest Hindu kovils on the Island.  Most of the beaches in the area are wide and the water is crystal clear and one place not to miss is the marble beach, best you use the selections of hotels that will give you a bird’s eye view of the China bay.
+
+About 16 km further north you’ll find yourself in “Nilaweli” beach with the famous Pigeon Island, the corals around the island is a great place to snorkel in our opinion and red rocks lying just 2 km offshore are reachable by small boat. The village of “Kanniyai” holds 07 wells that contain water from moderately warm water to very hot they are famous for their medicinal properties.
+
+In our opinion Trincomalle has everything on offer whether it be a beach stay, diving to a shipwreck, snorkelling in crystal clear water, whale watching across the bay, kite surfing all this in city built on a headland, which naturally protects the massive harbour behind it, also a naval station of Sri Lanka navy."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.369" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

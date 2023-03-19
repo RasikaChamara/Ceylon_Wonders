@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kandy"
+    android:background="@drawable/backsubwall">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Kandy Sacred City"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/imaged"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/kandy" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/backbtn" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/btnMap"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/homeicon" />
+
+    <ImageButton
+        android:id="@+id/btnMap"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/mapicon" />
+
+    <ScrollView
+        android:layout_width="362dp"
+        android:layout_height="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kandy is the last Royal Kingdom of Sri Lanka with picturesque landscape surrounded by beautiful mountains located in the central part of the island positioned 1,600 feet above the MSL- Mean Sea Level. Kandy Sri Lanka is well known with the Sacred Tooth relic Temple which is most venerated Buddhist Temple and The Royal Botanic Gardens with more that 4,000 labeled species of flora and also Kandy is a “Planned City” during British colonial period of Ceylon. Considering these facts UNESCO declared Kandy as a UNESCO World Heritage. Today Kandy is the second most famous city of Sri Lanka with a total area of 1,940 SQ KM and major tourist attraction. Culturally, Kandy plays a vital role with the mix cultures of Sinhala and Tamil communities. Sri Dalada Maligawa or the Temple of the Sacred Tooth Relic was built within the royal palace complex which houses the only surviving relic of Buddha.
+
+During the month of August Kandy becomes highly crowded due to the Kandy Esala Perehera which is hosted as an annual tradition of the Temple of the Sacred Tooth. It usually attracts a large number of local and foreign tourists who value tradition, customs and Buddhist heritage. This egregious night parade stalks more than 50 elephants along with colorful kandyan dancers and drummers.
+Your trip to Kandy will not be completed without a tour around the charming lake of Kandy. It is another fascinating attraction in this city which was built by the King Sri Wikrama Rajasinghe in 1806. By considering all of these reasons UNESCO declared this city as a world heritage under the name of Sacred City of Kandy. Kandy was the last Sinhalese Kingdom until it was captured and ruled by the British in 1815. King Wickramabahu’s name is recorded in history as establishing Kandy who built the royal palace with the advice of Brahmin. Sena Sammata Wikramabahu was the first king of Kandy while the last king of the kingdom was Sri Wikrama Rajasinha who was captured and taken as a royal prisoner by the British. The name Kandy came from the term Kanda which means Mountain. Most locals call this delighting city of theirs as Mahanuwara which means Great City. Kandy was once named Senkadagalapura. It was named so after an ascetic named Senkada.
+
+It was a challenging target for the foreign invaders who captured the coastal areas quite comfortably since this great city is located in the center of the Island. Therefore Kandy created and enhanced its own independent culture, livelihood, traditions, art and architecture. Kandy gave shelter to the relic of the tooth of the Buddha as the final kingdom of the country. It was a vital tradition and responsibility in the 4th century that the ruler of the nation would also be the sole protector of the relic. Therefore the royal palace and the temple of the tooth were positioned close to each other at all times. Kandy was the last Sinhalese Kingdom until it was captured and ruled by the British in 1815. King Wickramabahu’s name is recorded in history as establishing Kandy who built the royal palace with the advice of Brahmin. Sena Sammata Wikramabahu was the first king of Kandy while the last king of the kingdom was Sri Wikrama Rajasinha who was captured and taken as a royal prisoner by the British. The name Kandy came from the term Kanda which means Mountain. Most locals call this delighting city of theirs as Mahanuwara which means Great City. Kandy was once named Senkadagalapura. It was named so after an ascetic named Senkada.
+
+It was a challenging target for the foreign invaders who captured the coastal areas quite comfortably since this great city is located in the center of the Island. Therefore Kandy created and enhanced its own independent culture, livelihood, traditions, art and architecture. Kandy gave shelter to the relic of the tooth of the Buddha as the final kingdom of the country. It was a vital tradition and responsibility in the 4th century that the ruler of the nation would also be the sole protector of the relic. Therefore the royal palace and the temple of the tooth were positioned close to each other at all times."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.369" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

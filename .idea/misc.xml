@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/drawable/custom_button.xml" value="0.2265" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/font/bk.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_about.xml" value="0.152" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_anurad.xml" value="0.15164473684210528" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_arugam.xml" value="0.15164473684210528" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_asupini.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_bundala.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_galle.xml" value="0.15164473684210528" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_hikkaduwa.xml" value="0.15164473684210528" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_history.xml" value="0.16" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_kandy.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_koggala.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_main.xml" value="0.20897435897435898" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_meemure.xml" value="0.16" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_nature.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_polonn.xml" value="0.15164473684210528" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_seaside.xml" value="0.15164473684210528" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_sigiriya.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_sin_map.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_sinharaja.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_sinmap.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_trinco.xml" value="0.15164473684210528" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_unawatuna.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/HP/CeylonWonders/app/src/main/res/layout/activity_yala.xml" value="0.16052631578947368" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

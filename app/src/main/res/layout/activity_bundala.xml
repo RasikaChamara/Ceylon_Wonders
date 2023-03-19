@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bundala"
+    android:background="@drawable/backsubwall">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Bundala National Park"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/imaged"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/bundala1" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/backbtn" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/btnMap"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/homeicon" />
+
+    <ImageButton
+        android:id="@+id/btnMap"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/mapicon" />
+
+    <ScrollView
+        android:layout_width="362dp"
+        android:layout_height="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Situated in the Southern Province, close to Hambantota, The Bundala National Park considered the most important birding destination in Sri Lanka was declared as a wildlife sanctuary in 1969 and thereafter advanced to a National Park in 1993. It is located 251 km southeast of the capital city of Colombo, and can be reached from various tourist destinations around the country. For those travelling from Colombo the route is via Galle, Matara and Hambantota and from Kandy via Badulla. The climate at Bundala is hot and dry at most times, with average temperatures at 27 degrees Celsius during the months of May to September, with plenty of migratory birds arriving between September and March.
+
+The park isspread out on 6,218 hectares consists of a striking landscape made up of a mix of thorny scrublands, marshes, lagoons, waterways and dunes making it an inviting destination for thousands of migratory birds, some long distant migrants flying all the way from Euro Asian destinations to winter in the park. This has made it an internationally important wintering ground for thousands of exotic migratory species of birds. The reason for this is fascination for Sri Lanka is the countryâ€™s geographic location, being situated just below the southern tip of the Indian subcontinent, making it the final destination in their long journey across the oceans.
+
+The park boasts of nearly 200 species of birds, of which 150 are endemic and the rest migratory. Amongst the migratory birds are the Petite Blue Tailed bee-eaters, flocks of Flamingos, Brown Flycatcher, Sandpipers, Barn Swallow, Water Fowl, Common Redshank, the Lesser Sand Plover and Forest Wagtail. The complex wetland system within the park, now declared as Sri Lankaâ€™s first â€˜Ramsarâ€™ site (identified as an important wetland in the network of international wetlands) and declared a biosphere reserve by UNECO in 2005, is a haven to a number of aquatic birds such as the migratory Greater flamingo (large flocks of over 1000 birds), Ibis, Painted storks, Terns, Gulls and Ducks and the resident water birds such as Ppelicans, Herons, Egrets, Cormorants, Stilts and Storks.
+
+It has been observes by bird lovers and nature enthusiasts that these migratory birds stop over at the same site every year as birds are believed to follow established migratory routes which are well defined over long distances.
+
+The bio-diversity of the park is prolific with 383 plant species being recorded here, six of which are endemic and seven endangered. It is also home to 32 species of mammals which include Elephants (most of them reside here permanently, with seasonal migratory herds arriving for short periods), Leopard, Deer, Sloth Bear, Civets, Mongoose, Monkeys and Giant Squirrel. The marshes and lagoons of the park hold both marsh &amp; estuarine Crocodiles while the costal stretch of the park is a sanctuary for five species of marine turtle, namely olive ridley, green, leatherback, and loggerhead, who visit the beach to breed and lay eggs.
+
+"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.369" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

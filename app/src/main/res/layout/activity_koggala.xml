@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Koggala"
+    android:background="@drawable/backsubwall">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Koggala"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/imaged"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/koggala" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/backbtn" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/btnMap"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/homeicon" />
+
+    <ImageButton
+        android:id="@+id/btnMap"
+        android:layout_width="78dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imgdesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/mapicon" />
+
+    <ScrollView
+        android:layout_width="362dp"
+        android:layout_height="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Small coastal town, situated at the edge of a lagoon on the south coast of Sri Lanka, located in Galle District, Southern Province, Sri Lanka, governed by an Urban Council. Koggala is bounded on one side by a reef, and on the other by a large lake, Koggala Lake, into which the numerous tributaries of the Koggala Oya drain. It is approximately 139 kilometres (86 mi) south of Colombo and is situated at an elevation of 3 metres (9.8 ft) above the sea level.
+Koggala has one of the longest beaches in Sri Lanka, and is located in close proximity to the popular tourist resort of Unawatuna, Koggala in comparison is relatively uncluttered as a tourist destination and mostly unexplored.
+
+Koggala was significantly affected by the tsunami caused by the 2004 Indian Ocean earthquake, where the waters measured 9.3 metres (31 ft) high.
+Approximately 5 kilometres (3.1 mi) east of Koggala is the Kataluva Purvarama Maha Viharaya temple, which was originally built in the 13th century and has some late 19th century additions. The temple is renowned for its Kandyan-style paintings in the main shrine, dating from the late 19th century. The paintings of musicians, dancers and European figures illustrates an interesting piece of social history.
+Koggala is also the home to the Giniwella Kathaluwa and the ancient Temples. The Kathaluwa Buddhist temple is known for its murals and for the preserved first printing press, brought by the Dutch to Sri Lanka.
+
+The area is also famous for its distinct stilt fishermen, who erect a single pole in the chest-deep water on the beach, just few meters off-shore, where they perch on a cross bar and using bamboo fishing rods cast their lines out beyond the surf break to catch small fish.
+A number of small food shacks and restaurants line the beach, catering to the necessary requirements of its visitors. Hammocks and beachside chairs that line the place allows Koggala’s guests to simply lounge under the open sun and enjoy the rolling blue waters of the Indian Ocean.
+
+The scenic beach is an ideal locale to observe the stilt fisherman at work. These traditional fishermen, indeginous to the country, practice their art in a unique method and style, and are a sight to behold if never seen before"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.369" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
